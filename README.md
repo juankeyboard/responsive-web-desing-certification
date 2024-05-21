@@ -24,5 +24,5 @@ This repository is organized into the following folders, each containing a proje
 5. `tribute_page`: A tribute page dedicated to a person or topic of interest.
 
 ## Acknowledgments
-A big thank you to freeCodeCamp for providing such a comprehensive and accessible course on responsive web design. For more information and to start learning, visit the course page for [Responsive Web Design Course on freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web
+A big thank you to freeCodeCamp for providing such a comprehensive and accessible course on responsive web design. For more information and to start learning, visit the course page for [Responsive Web Design Course on freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web)
 
