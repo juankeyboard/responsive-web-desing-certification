@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="survey_form.css">
+    <meta charset="UTF-8">
+    <title>How was your experience</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Capitals</h1>
+        <h2 id="title" class="text-center">The game of wealth</h2>
+        <p id="description" class="description text-center"> Thank you for evaluating your gaming experience!</p>
+      </header>
+      <form id="survey-form">
+        <label id="name-label">
+          <input id="name" type="text" placeholder="Type your name" required> Name: 
+        </label>
+        <label id="email-label">
+          <input id="email" type="email" placeholder="Type a valid email" required> Email: 
+        </label>
+        <label id="number-label">
+          <input id="number" type="number" min="12" max="80" placeholder="Type your number" required> Number: 
+        </label>
+        <label>
+          <select id="dropdown">
+            <option></option>
+            <option></option>
+          </select>
+        </label>
+        <label>
+          <input class="input-radio" id="radio1"  type="radio" name="radio1" value="1">
+        </label>
+        <label>
+          <input class="input-radio" id="radio2"  type="radio" name="radio1" value="2">
+        </label>
+        <label>
+          <select>
+            <label><input class="input-checkbox" id="chbx1"  type="checkbox" name="chbx1" value="1"></label>
+            <label><input class="input-checkbox" id="chbx2"  type="checkbox" name="chbx2" value="2"></label>
+            <label><input class="input-checkbox" id="chbx3"  type="checkbox" name="chbx3" value="3"></label>
+          </select>
+        </label>
+        <label>
+          <textarea class="input-textarea"></textarea> Adtitional comments
+        </label>
+        <lable>
+          <input class="submit-button" id="submit" type="submit"> Submit 
+        </label>
+      </form>
+      <div class="form-group"></div>
+      <div class="form-group"></div>
+      <div class="form-group"></div>
+      <div class="form-group"></div>
+      <div class="form-group"></div>
+      <div class="form-group"></div>
+      <div class="form-group"></div>
+      <div class="form-group"></div>
+      <div class="form-group"></div>
+    </div>
+  </body>
+</html>
