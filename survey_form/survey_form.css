@@ -38,7 +38,7 @@ body::before {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0)
     ),
-    url(https://github.com/juankeyboard/responsive-web-desing-certification/blob/main/survey_form/images/logo.png?raw=true);
+    url(images/logo.png);
   background-size: 30%;
   background-repeat: repeat;
   background-position: center;
