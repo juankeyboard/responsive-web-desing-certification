@@ -13,34 +13,60 @@
         <p id="description" class="description text-center"> Thank you for evaluating your gaming experience!</p>
       </header>
       <form id="survey-form">
-        <label id="name-label">
-          <input id="name" type="text" placeholder="Type your name" required> Name: 
-        </label>
-        <label id="email-label">
-          <input id="email" type="email" placeholder="Type a valid email" required> Email: 
-        </label>
-        <label id="number-label">
-          <input id="number" type="number" min="12" max="80" placeholder="Type your number" required> Number: 
-        </label>
-        <label>
-          <select id="dropdown">
-            <option></option>
-            <option></option>
-          </select>
-        </label>
-        <label>
-          <input class="input-radio" id="radio1"  type="radio" name="radio1" value="1">
-        </label>
-        <label>
-          <input class="input-radio" id="radio2"  type="radio" name="radio1" value="2">
-        </label>
-        <label>
-          <select>
-            <label><input class="input-checkbox" id="chbx1"  type="checkbox" name="chbx1" value="1"></label>
-            <label><input class="input-checkbox" id="chbx2"  type="checkbox" name="chbx2" value="2"></label>
-            <label><input class="input-checkbox" id="chbx3"  type="checkbox" name="chbx3" value="3"></label>
-          </select>
-        </label>
+        <div class="form-group">
+          <label id="name-label">Name</label>
+          <input id="name" type="text" placeholder="Type your name" required> 
+        </div>
+        <div class="form-group">
+          <label id="email-label">Email</label>
+          <input id="email" type="email" placeholder="Type a valid email" required>          
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number">Age
+            <span clas="clue">(optional)</span>
+          </label>
+          <input id="number" name="age" type="number" min="12" max="80" class="form-control" placeholder="Type your age here">
+        </div>
+        <div class="form-group">
+          <p>Which option best dscribes your current role</p>
+          <select id="dropdown" name="role" class="form-control">
+            <option disable selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="job">Full Time Job</option>
+            <option value="preferNO">Prefer not to say</option>
+          </select>  
+        </div>
+        <div class="form-group">
+          <p>Would you recomend freeCodeCamp to a friend</p>
+          <label>
+            <input class="input-radio" type="radio" name="user-recomend" value="definitely" checked>"Definitely"
+          </label>
+          <label>
+            <input class="input-radio" type="radio" name="user-recomend" value="maybe">"Maybe"
+          </label>
+          <label>
+            <input class="input-radio" type="radio" name="user-recomend" value="not-sure">"Not sure"
+          </label>
+        </div>
+        <div class="form-group">
+          <p>What is your favorite feature of Capitals</p>
+          <select id="most-like" name="mostLike" class="form-control" required>
+            <option disabled selected value>Select and option</option>
+            <option value="board">board</option>
+            <option value="rules">rules</option>
+            <option value="time">time</option>
+          </select>          
+        </div>
+        <div class="form-group">
+
+        </div>
+        <div class="form-group">
+
+        </div>
+        <div class="form-group">
+
+        </div>
+        
         <label>
           <textarea class="input-textarea"></textarea> Adtitional comments
         </label>
@@ -48,15 +74,6 @@
           <input class="submit-button" id="submit" type="submit"> Submit 
         </label>
       </form>
-      <div class="form-group"></div>
-      <div class="form-group"></div>
-      <div class="form-group"></div>
-      <div class="form-group"></div>
-      <div class="form-group"></div>
-      <div class="form-group"></div>
-      <div class="form-group"></div>
-      <div class="form-group"></div>
-      <div class="form-group"></div>
-    </div>
+     </div>
   </body>
 </html>
