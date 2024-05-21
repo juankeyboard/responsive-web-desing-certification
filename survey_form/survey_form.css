@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 
 :root {
   --color-white: #f3f3f3;
@@ -14,7 +15,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
@@ -68,7 +69,7 @@ h1,
 p {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Oswald, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 label {
@@ -149,7 +150,7 @@ form {
   background: rgba(151, 157, 160, 0.6);
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: Oswald, "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 @media (min-width: 480px) {
